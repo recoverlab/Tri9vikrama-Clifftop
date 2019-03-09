@@ -6,7 +6,11 @@ body {
   max-width: 1280px;
 }
 
-table th, td {
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
   border: 1px solid black;
 }
 
